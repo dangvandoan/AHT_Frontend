@@ -12,6 +12,7 @@
 //  _____________________________________________
 
 @color : #0ca8c9;
+
 @font-face {
     font-family: poppins;
     src: url(../fonts/Poppins-Regular.ttf);
@@ -25,10 +26,12 @@
     background-color: #222222;
     font-family: poppins;
     color: white;
-
     height: 72px;
 
-    .top {
+    //
+    // Top Header
+    //______________________________
+    .top-header {
 
         display: flex;
         width: 1140px;
@@ -116,8 +119,166 @@
             }
         }
     }
-}
 
-// 
-// Logo
-//______________________________
+    //
+    // Main header
+    //______________________________
+    .main-header {
+        // display: flex;
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+
+        .left {
+            float: left;
+            margin: 26px 0;
+        }
+
+        .right {
+
+            float: right;
+            display: flex;
+            margin: 30px 0;
+
+            .search {
+
+                // border: 1px solid #e0e0e0;
+
+                form {
+                    display: flex;
+
+                    .input-search {
+                        display: flex;
+                        width: 500px;
+                        height: 40px;
+                        border: 1px solid #e0e0e0;
+                        border-radius: 20px 0 0 20px;
+
+                        select {
+                            height: 38px;
+                            border: none;
+                            font-size: 12px;
+                            margin-left: 18px;
+                            padding-right: 10px;
+                            font-family: poppins;
+
+                        }
+
+                        .line {
+                            background-color: #e0e0e0;
+                            width: 1px;
+                            height: 24px;
+                            margin: 7px 0;
+                            margin-left: 32px;
+                        }
+
+                        input {
+
+                            height: 36px;
+                            width: 340px;
+                            border: none;
+                            margin-left: 16px;
+                            font-family: poppins;
+                            font-size: 12px;
+
+                            // border: 1px solid #e0e0e0;
+
+                        }
+                    }
+                }
+
+
+
+                button {
+
+                    margin-right: 20px;
+                    height: 40px;
+                    width: 57px;
+                    border: none;
+                    color: white;
+                    background-color: white;
+                    background: url('../images/bg_search.png') no-repeat;
+
+                    img {
+                        margin-left: -6px;
+                    }
+
+                }
+            }
+
+            .tools {
+                margin-top: 6px;
+
+                .cart {
+                    margin-right: 7px;
+                }
+
+                .setting {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    //
+    // Footer header
+    //______________________________
+
+    .ft-header {
+
+        height: 50px;
+        background-color: @color;
+
+
+        .menu {
+
+            width: 1140px;
+            margin: 0 auto;
+
+            .ft-left {
+                float: left;
+                // margin: 14px 0;
+                margin-left: -210px;
+                display: flex;
+
+                button {
+                    background-color: @color;
+                    border: none;
+                    height: 50px;
+                }
+
+                p {
+                    margin: 14px 0 12px 11px;
+                    color: white;
+                    font-family: poppins;
+                    font-size: 14.5px;
+                }
+            }
+
+            .ft-right {
+                float: right;
+
+                nav ul {
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        margin-left: 61px;
+                        margin-top: -3px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-weight: bold;
+                        font-size: 13px;
+                        letter-spacing: 1px;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}

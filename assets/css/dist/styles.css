@@ -15,13 +15,13 @@
   color: white;
   height: 72px;
 }
-.header .top {
+.header .top-header {
   display: flex;
   width: 1140px;
   height: 72px;
   margin: 0 auto;
 }
-.header .top .address i {
+.header .top-header .address i {
   border: 1px solid #0ca8c9;
   color: #0ca8c9;
   padding: 7px 10px;
@@ -29,16 +29,16 @@
   font-size: 16px;
   margin: 20px 0;
 }
-.header .top .address p {
+.header .top-header .address p {
   float: right;
   font-size: 12.3px;
   margin-left: 10px;
   margin-top: 18px;
 }
-.header .top .address p span {
+.header .top-header .address p span {
   opacity: 0.6;
 }
-.header .top .email i {
+.header .top-header .email i {
   border: 1px solid #0ca8c9;
   color: #0ca8c9;
   padding: 7px 10px;
@@ -46,24 +46,24 @@
   font-size: 16px;
   margin: 20px 0;
 }
-.header .top .email p {
+.header .top-header .email p {
   float: right;
   font-size: 12.3px;
   margin-left: 10px;
   margin-top: 18px;
 }
-.header .top .email p span {
+.header .top-header .email p span {
   opacity: 0.6;
 }
-.header .top .email i {
+.header .top-header .email i {
   padding: 7px 7.5px;
   font-size: 16px;
   margin: 20px 0;
 }
-.header .top .email p {
+.header .top-header .email p {
   letter-spacing: 1.5;
 }
-.header .top .call i {
+.header .top-header .call i {
   border: 1px solid #0ca8c9;
   color: #0ca8c9;
   padding: 7px 10px;
@@ -71,37 +71,37 @@
   font-size: 16px;
   margin: 20px 0;
 }
-.header .top .call p {
+.header .top-header .call p {
   float: right;
   font-size: 12.3px;
   margin-left: 10px;
   margin-top: 18px;
 }
-.header .top .call p span {
+.header .top-header .call p span {
   opacity: 0.6;
 }
-.header .top .call i {
+.header .top-header .call i {
   padding: 6.5px 8px;
   font-size: 17px;
   margin: 20px 0;
   margin-left: -1px;
 }
-.header .top .call p {
+.header .top-header .call p {
   margin-left: 11px;
   letter-spacing: 1.5;
 }
-.header .top div:not(:first-child) {
+.header .top-header div:not(:first-child) {
   margin-left: 20px;
 }
-.header .top .language {
+.header .top-header .language {
   margin-top: 30px;
   padding-left: 386px;
 }
-.header .top .language img {
+.header .top-header .language img {
   float: left;
   margin-top: 2px;
 }
-.header .top .language select {
+.header .top-header .language select {
   float: right;
   border: none;
   color: white;
@@ -109,6 +109,116 @@
   margin-left: 5px;
   padding-right: 26px;
 }
-.header .top .language select option {
+.header .top-header .language select option {
   font-size: 11.5px;
+}
+.header .main-header {
+  width: 1140px;
+  height: 100px;
+  margin: 0 auto;
+}
+.header .main-header .left {
+  float: left;
+  margin: 26px 0;
+}
+.header .main-header .right {
+  float: right;
+  display: flex;
+  margin: 30px 0;
+}
+.header .main-header .right .search form {
+  display: flex;
+}
+.header .main-header .right .search form .input-search {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px 0 0 20px;
+}
+.header .main-header .right .search form .input-search select {
+  height: 38px;
+  border: none;
+  font-size: 12px;
+  margin-left: 18px;
+  padding-right: 10px;
+  font-family: poppins;
+}
+.header .main-header .right .search form .input-search .line {
+  background-color: #e0e0e0;
+  width: 1px;
+  height: 24px;
+  margin: 7px 0;
+  margin-left: 32px;
+}
+.header .main-header .right .search form .input-search input {
+  height: 36px;
+  width: 340px;
+  border: none;
+  margin-left: 16px;
+  font-family: poppins;
+  font-size: 12px;
+}
+.header .main-header .right .search button {
+  margin-right: 20px;
+  height: 40px;
+  width: 57px;
+  border: none;
+  color: white;
+  background-color: white;
+  background: url('../images/bg_search.png') no-repeat;
+}
+.header .main-header .right .search button img {
+  margin-left: -6px;
+}
+.header .main-header .right .tools {
+  margin-top: 6px;
+}
+.header .main-header .right .tools .cart {
+  margin-right: 7px;
+}
+.header .main-header .right .tools .setting {
+  margin-right: 16px;
+}
+.header .ft-header {
+  height: 50px;
+  background-color: #0ca8c9;
+}
+.header .ft-header .menu {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header .ft-header .menu .ft-left {
+  float: left;
+  margin-left: -210px;
+  display: flex;
+}
+.header .ft-header .menu .ft-left button {
+  background-color: #0ca8c9;
+  border: none;
+  height: 50px;
+}
+.header .ft-header .menu .ft-left p {
+  margin: 14px 0 12px 11px;
+  color: white;
+  font-family: poppins;
+  font-size: 14.5px;
+}
+.header .ft-header .menu .ft-right {
+  float: right;
+}
+.header .ft-header .menu .ft-right nav ul {
+  display: flex;
+  list-style: none;
+}
+.header .ft-header .menu .ft-right nav ul li {
+  margin-left: 61px;
+  margin-top: -3px;
+}
+.header .ft-header .menu .ft-right nav ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
