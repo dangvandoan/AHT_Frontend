@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+// *
+// Header
+//______________________________
+
+@color : #0ca8c9;
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.header {
+    background-color: #222222;
+    font-family: poppins;
+    color: white;
+  
+    height: 72px;
+
+    .top {
+
+        display: flex;
+        width: 1140px;
+        height: 72px;
+        margin: 0 auto;
+
+        div {
+            i {
+                border: 1px solid @color;
+                color: @color;
+                padding: 7px 10px;
+                float: left;
+                font-size: 16px;
+                margin: 20px 0;
+            }
+
+            p {
+                float: right;
+                font-size: 12.3px;
+                margin-left: 10px;
+                margin-top: 18px;
+            }
+        }
+
+        div:not(:first-child) {
+            margin-left: 20px;
+        }
+
+        .language {
+            margin-top: 30px;
+            padding-left: 300px;
+
+            img {
+                float: left;
+                margin-top: 2px;
+            }
+
+            select {
+                float: right;
+                border: none;
+                color: white;
+                background-color: #222222;
+
+            }
+        }
+    }
+}
