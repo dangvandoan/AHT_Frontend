@@ -7,22 +7,25 @@
     }
 }
 
-// *
-// Header
-//______________________________
+//
+//  variables
+//  _____________________________________________
 
 @color : #0ca8c9;
-
 @font-face {
     font-family: poppins;
     src: url(../fonts/Poppins-Regular.ttf);
 }
 
+// *
+// Header
+//______________________________
+
 .header {
     background-color: #222222;
     font-family: poppins;
     color: white;
-  
+
     height: 72px;
 
     .top {
@@ -32,7 +35,7 @@
         height: 72px;
         margin: 0 auto;
 
-        div {
+        .address {
             i {
                 border: 1px solid @color;
                 color: @color;
@@ -47,6 +50,41 @@
                 font-size: 12.3px;
                 margin-left: 10px;
                 margin-top: 18px;
+
+                span {
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        .email {
+            .address;
+
+            i {
+                padding: 7px 7.5px;
+                font-size: 16px;
+                margin: 20px 0;
+            }
+
+            p {
+
+                letter-spacing: 1.5;
+            }
+        }
+
+        .call {
+            .address;
+
+            i {
+                padding: 6.5px 8px;
+                font-size: 17px;
+                margin: 20px 0;
+                margin-left: -1px;
+            }
+
+            p {
+                margin-left: 11px;
+                letter-spacing: 1.5;
             }
         }
 
@@ -56,7 +94,8 @@
 
         .language {
             margin-top: 30px;
-            padding-left: 300px;
+            padding-left: 386px;
+
 
             img {
                 float: left;
@@ -68,8 +107,17 @@
                 border: none;
                 color: white;
                 background-color: #222222;
+                margin-left: 5px;
+                padding-right: 26px;
 
+                option {
+                    font-size: 11.5px;
+                }
             }
         }
     }
 }
+
+// 
+// Logo
+//______________________________

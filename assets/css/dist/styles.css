@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+* body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+.header {
+  background-color: #222222;
+  font-family: poppins;
+  color: white;
+  height: 72px;
+}
+.header .top {
+  display: flex;
+  width: 1140px;
+  height: 72px;
+  margin: 0 auto;
+}
+.header .top .address i {
+  border: 1px solid #0ca8c9;
+  color: #0ca8c9;
+  padding: 7px 10px;
+  float: left;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.header .top .address p {
+  float: right;
+  font-size: 12.3px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.header .top .address p span {
+  opacity: 0.6;
+}
+.header .top .email i {
+  border: 1px solid #0ca8c9;
+  color: #0ca8c9;
+  padding: 7px 10px;
+  float: left;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.header .top .email p {
+  float: right;
+  font-size: 12.3px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.header .top .email p span {
+  opacity: 0.6;
+}
+.header .top .email i {
+  padding: 7px 7.5px;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.header .top .email p {
+  letter-spacing: 1.5;
+}
+.header .top .call i {
+  border: 1px solid #0ca8c9;
+  color: #0ca8c9;
+  padding: 7px 10px;
+  float: left;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.header .top .call p {
+  float: right;
+  font-size: 12.3px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.header .top .call p span {
+  opacity: 0.6;
+}
+.header .top .call i {
+  padding: 6.5px 8px;
+  font-size: 17px;
+  margin: 20px 0;
+  margin-left: -1px;
+}
+.header .top .call p {
+  margin-left: 11px;
+  letter-spacing: 1.5;
+}
+.header .top div:not(:first-child) {
+  margin-left: 20px;
+}
+.header .top .language {
+  margin-top: 30px;
+  padding-left: 386px;
+}
+.header .top .language img {
+  float: left;
+  margin-top: 2px;
+}
+.header .top .language select {
+  float: right;
+  border: none;
+  color: white;
+  background-color: #222222;
+  margin-left: 5px;
+  padding-right: 26px;
+}
+.header .top .language select option {
+  font-size: 11.5px;
+}
