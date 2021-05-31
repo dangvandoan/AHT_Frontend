@@ -222,3 +222,181 @@
   font-size: 13px;
   letter-spacing: 1px;
 }
+.main .top-main {
+  background: url('../images/slide.jpg') no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.main .top-main .content {
+  padding: 234px 0;
+  padding-left: 390px;
+}
+.main .between-main {
+  width: 1140px;
+  margin: 0 auto;
+}
+.main .between-main .advan-top {
+  display: flex;
+}
+.main .between-main .advan-top .shipping {
+  color: #ababab;
+}
+.main .between-main .advan-top .shipping span {
+  color: black;
+  font-size: 20px;
+}
+.main .between-main .advan-top .shipping img {
+  float: left;
+  padding: 62px 0;
+}
+.main .between-main .advan-top .shipping p {
+  float: right;
+  margin-top: 62px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.main .between-main .advan-top .support {
+  color: #ababab;
+  margin-left: 20px;
+}
+.main .between-main .advan-top .support span {
+  color: black;
+  font-size: 20px;
+}
+.main .between-main .advan-top .support img {
+  float: left;
+  padding: 62px 0;
+}
+.main .between-main .advan-top .support p {
+  float: right;
+  margin-top: 62px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.main .between-main .advan-top .days {
+  color: #ababab;
+  margin-left: 45px;
+}
+.main .between-main .advan-top .days span {
+  color: black;
+  font-size: 20px;
+}
+.main .between-main .advan-top .days img {
+  float: left;
+  padding: 62px 0;
+}
+.main .between-main .advan-top .days p {
+  float: right;
+  margin-top: 62px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.main .between-main .advan-top .pay {
+  color: #ababab;
+  margin-left: 52px;
+}
+.main .between-main .advan-top .pay span {
+  color: black;
+  font-size: 20px;
+}
+.main .between-main .advan-top .pay img {
+  float: left;
+  padding: 62px 0;
+}
+.main .between-main .advan-top .pay p {
+  float: right;
+  margin-top: 62px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.main .between-main .advan-bottom .advan-left {
+  float: left;
+  width: 654px;
+  height: 510px;
+  background-color: #f0f0f0;
+}
+.main .between-main .advan-bottom .advan-right {
+  float: right;
+}
+.main .between-main .advan-bottom .advan-right .advan-right-top {
+  height: 238px;
+  width: 457px;
+  background-color: #f0f0f0;
+  margin-bottom: 30px;
+}
+.main .between-main .advan-bottom .advan-right .advan-right-bottom {
+  height: 238px;
+  width: 457px;
+  background-color: #f0f0f0;
+  margin-bottom: 30px;
+}
+.main .ft-main {
+  width: 1140px;
+  margin: 20px auto;
+  clear: right;
+}
+.main .ft-main .ft-main-top h2 {
+  color: black;
+  font-family: poppins;
+  font-size: 32px;
+}
+.main .ft-main .ft-main-top .grid-container {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .product {
+  background-color: #f5f5f5;
+  width: 263px;
+  height: 263px;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .product img {
+  width: 138px;
+  height: 165px;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .content-product {
+  margin: 18px 25px 60px 25px;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .content-product p {
+  color: black;
+  text-align: center;
+  font-family: poppins;
+  font-weight: bold;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .content-product .price {
+  color: #0ca8c9;
+}
+.main .ft-main .ft-main-top .grid-container .grid-item .content-product .price span {
+  color: black;
+  font-weight: normal;
+}
+.main .ft-main .news {
+  background: url('../images/bg_news.png') no-repeat;
+  padding: 115px 0 100px 0;
+}
+.main .ft-main .news h2 {
+  text-align: center;
+  font-family: poppins;
+}
+.main .ft-main .news .posts {
+  display: flex;
+}
+.main .ft-main .news .posts .content-post {
+  width: 360px;
+}
+.main .ft-main .news .posts .content-post:not(:first-child) {
+  margin-left: 30px;
+}
+.main .ft-main .news .posts .content-post p {
+  color: black;
+  font-weight: bold;
+}
+.main .ft-main .news .posts .content-post .day {
+  color: #8f8f8f;
+}
+.main .ft-main .news .posts .content-post .day span {
+  color: #0ca8c9;
+}
